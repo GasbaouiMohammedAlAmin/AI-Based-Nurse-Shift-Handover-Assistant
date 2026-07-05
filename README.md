@@ -47,7 +47,7 @@ The `Summarizer` class, implemented in `nurse_handover/summary.py`, coordinates 
 
 *   Python 3.11+
 *   uv package manager
-*   Either a Google Cloud project with Vertex AI enabled or a valid Gemini API key.
+*   a valid Gemini API key.
 
 ### Installation Procedure
 
@@ -59,12 +59,7 @@ The `Summarizer` class, implemented in `nurse_handover/summary.py`, coordinates 
 3.  **Configure Environment Variables:**
     Create a `.env` file in the `/nurse-handover` directory  and update it with your own credentials.
 
-    *   **For Vertex AI (Recommended):**
-        ```env
-        GOOGLE_CLOUD_PROJECT=your-gcp-project-id
-        GOOGLE_CLOUD_LOCATION=your-gcp-region
-        GOOGLE_GENAI_USE_VERTEXAI=true
-        ```
+  
     *   **For Gemini API Key:**
         ```env
         GOOGLE_API_KEY=your-api-key
